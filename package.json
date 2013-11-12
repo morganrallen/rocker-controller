@@ -1,0 +1,19 @@
+{
+  "name": "rocker-controller",
+  "version": "0.0.2",
+  "description": "Mouse controller rocker style controller for a game input",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd example && ../node_modules/.bin/beefy example.js --live -- -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "control"
+  ],
+  "author": "Morgan 'ARR!' Allen",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "beefy": "~0.4.5"
+  }
+}
